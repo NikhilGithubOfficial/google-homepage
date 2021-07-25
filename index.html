@@ -6,48 +6,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Google</title>
-
+  <link rel="icon" href="images/icon.jpg">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div>
-                <a href="#gmail">Gmail</a>
-                <a href="#images">Images</a>
-                <a href="#menu">Menu</a>
-                <a href="#login" id=login>Login</a>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+	<nav class="nav">
+		<a class="nav-link" href="#gmail">Gmail</a>
+		<a class="nav-link" href="#images">Images</a>
+		<img src="images/menu.png">
+		<button>Sign in</button>
+	</nav>
+    <div class="center">
+		<img class="logo" src="images/google-logo.png" alt="Google-logo">
+		<form>
+			<br>
+			<div class="searchbar">
+				<img class="search-icon" src="images/search.svg">
+				<input class="search-input" type="text" />
+				<img class="microphone-icon" src="images/google-microphone.png">
+				<input type="submit" class="search-buttons" value="Google Search">
+				<input type="submit" class="search-buttons" value="I'm Feeling Lucky">
+			</div>
+		</form>
+		<div class="language">
+			Google offered in:
+			<a href="#">English</a>
+		</div>
+	</div>
+    <footer class="country">
+		<h4>India</h4>
+	</footer>
+    <footer class="links">
+        <div class="left-section">
+          <a class="footer-link" href="#">Advertising</a>
+          <a class="footer-link" href="#">Business</a>
+          <a class="footer-link" href="#">About</a>
+          <a class="footer-link" href="#">How Search works</a>
         </div>
-        <div>
-            <button type="button">Google Search</button>
-            <button type="button">I'm Feeling Lucky</button>
+        <div class="right-section">
+          <a class="footer-link" href="#">Privacy</a>
+          <a class="footer-link" href="#">Terms</a>
+          <a class="footer-link" href="#">Settings</a>
         </div>
-    </main>
-    
-    <footer>
-        <a>India</a>
-    </footer>
-    <footer>
-        <nav>
-            <div>
-                <a href="#about">About</a>
-                <a href="#advertising">Advertising</a>
-                <a href="#business">Business</a>
-                <a href="#howsearchworks">How Search Works</a>
-            </div>
-            <div>
-                <a href="#privacy">Privacy</a>
-                <a href="#terms">Terms</a>
-                <a href="#settings">Settings</a>
-            </div>
-        </nav>
     </footer>
 </body>
 </html>
