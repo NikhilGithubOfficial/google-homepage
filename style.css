@@ -66,6 +66,8 @@ nav button {
     display: block;
     margin: 0px auto;
     margin-top: 100px;
+    width: 230px;
+    height: 90px;
 }
 
 .searchbar {
@@ -177,4 +179,34 @@ footer a:hover {
 }
 .right-section {
 	padding-right: 18.7px;
+    flex: 1;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+@media (max-width: 660px) {
+    html {
+      font-size: 50%;
+    }
+
+    .center .logo {
+        width: 60%;
+        height: 50%;
+    }
+
+    .searchbar {
+      width: 80%;
+      height: 80%;
+    }
+  
+    .footer {
+      flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }

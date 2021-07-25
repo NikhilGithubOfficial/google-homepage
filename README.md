@@ -1,1 +1,4 @@
-This is my first attempt to build something in html.
+# Google Homepage Clone
+## Project : Front-End (Html / Css)
+Completed under **The Odin Project**
+Live Demo : https://nikhilgithubofficial.github.io/google-homepage/
