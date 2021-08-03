@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-    font-size: 15px;
+    font-size: 13px;
     display: inline-block;
     line-height: 24px;
     font-weight: 400;
@@ -66,7 +66,7 @@ nav button {
     display: block;
     margin: 0px auto;
     margin-top: 100px;
-    width: 230px;
+    width: 250px;
     height: 90px;
 }
 
@@ -82,7 +82,7 @@ nav button {
     display: block;
     border: 1px solid #ddd;
     color: rgba(0,0,0, .85);
-    font-size: 16px;
+    font-size: 13px;
     padding: 15px;
     padding-left: 45px;
     border-radius: 25px;
@@ -122,10 +122,10 @@ nav button {
     border: 1px solid transparent;
 	padding: 9px 15px;
 	color: #666;
-	font-size: 14px;
+	font-size: 13px;
 	border-radius: 4px;
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 13px;
 	margin-top: 28px;
 	outline: none;
 	cursor: pointer;
@@ -154,7 +154,7 @@ footer {
 }
 footer h4 {
 	color: rgba(0,0,0, 0.54);
-	font-size: 15px;
+	font-size: 13px;
 	line-height: 39.5px;
 	font-weight: 400;
 	padding-left: 29px;
@@ -164,24 +164,21 @@ footer a {
 	color: #5f6368;
 	display: inline-block;
 	padding: 12px 11.3px;
-	font-size: 14px;
+	font-size: 13px;
 }
 footer a:hover {
 	text-decoration: underline;
 }
 .links {
 	border-top: 1px solid #ddd;
-	display: flex;
 }
 .left-section {
-	padding-left: 18.7px;
-	flex: 1;
+	padding-left: 19px;
+    float: left;
 }
 .right-section {
-	padding-right: 18.7px;
-    flex: 1;
-    align-items: flex-end;
-    justify-content: flex-end;
+	padding-right: 19px;
+    float: right;
 }
 
 @media (max-width: 660px) {
@@ -190,23 +187,13 @@ footer a:hover {
     }
 
     .center .logo {
-        width: 60%;
-        height: 50%;
+        width: 40%;
+        height: 30%;
     }
 
     .searchbar {
       width: 80%;
-      height: 80%;
+      height: 50%;
     }
-  
-    .footer {
-      flex-direction: column;
-    }
-
-    .links {
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
